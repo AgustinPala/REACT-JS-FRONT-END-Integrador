@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.izquierda, .derecha{
+    height: 100vh;
+    width: 50%;
+}
+
+.izquierda{
+    background-image: linear-gradient(rgba(13, 147, 224, 0.822), rgb(35, 75, 23));
+
+}
+
+.derecha{
+    background-image: url(imagenes/montanas-con-nieve-en-el-bosque-3934.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#pantalla_dividida{
+    display: flex
+}
+
+.creative{
+    color: rgb(241, 239, 243);
+}
+
+.creative2{
+    color: rgb(241, 239, 243);
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 70px;
+    width: 50%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+
+p {
+    font-size: 25px;
+    line-height: 35px;
+    width: 50%;
+    margin: auto;
+    margin-left: 100px;
+    text-align: justify;
+}
+a{
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 30px;
+
+    display: inline-block;
+}
+
+.boton{
+    max-width: 500px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.mail {
+    text-align: justify;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.cat {
+    height: 50px;
+    width: 50px;
+}
+
+.perfil {
+    margin-left: 300px;
+    margin-top: 300px;
+    height: 440px;
+    width: 340px;
+    border: 10px solid;
+}
